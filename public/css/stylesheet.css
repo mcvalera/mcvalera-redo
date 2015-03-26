@@ -1,0 +1,14 @@
+nav {
+  width: 100%; }
+  nav ul {
+    text-align: center;
+    border-bottom: 2px solid gray;
+    margin: 0; }
+  nav li {
+    display: inline-block; }
+  nav a {
+    color: red;
+    padding-left: 50px;
+    padding-right: 50px; }
+
+/*# sourceMappingURL=stylesheet.css.map */

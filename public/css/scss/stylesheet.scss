@@ -1,0 +1,16 @@
+nav {
+  width: 100%;
+  ul {
+    text-align: center;
+    border-bottom: 2px solid gray;
+    margin: 0;
+  }
+  li{
+    display: inline-block;
+  }
+  a {
+    color: red;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
