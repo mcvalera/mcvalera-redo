@@ -1,5 +1,41 @@
+/* to be removed later */
+/* * {
+  outline: 1px solid gray;
+} */
+
+/* PAGE HEIGHT DETERMINANTS */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+section {
+  height: 100vh;
+  margin: 0;
+}
+
+section:nth-child(odd) {
+  background: lightgray;
+}
+
+section:nth-child(even) {
+  background: white;
+}
+
+section .container {
+  padding-top: 34px;
+  top: 20%;
+}
+
+/* NAVIGATION BAR */
 nav {
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background: white;
   ul {
     text-align: center;
     border-bottom: 2px solid gray;
@@ -10,7 +46,31 @@ nav {
   }
   a {
     color: red;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
+
+/* HOME */
+#home {
+  text-align: center;
+}
+
+.hero {
+  height: 200px;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+/* SKILLS */
+#skills {
+  text-align: center;
+}
+
+.skill.icon {
+  width: 50px;
+}
+
+/* WORK */
+
+/* BLOG */
