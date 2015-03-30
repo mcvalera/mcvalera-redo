@@ -5,7 +5,7 @@ $secondary-text-color: #7c736b;
 $highlight-color: #934A6E;
 
 * {
-  /* outline: 1px solid gray;*/
+  /* outline: 1px solid gray; */
   font-family: 'Open Sans', sans-serif;
   color: $primary-text-color;
   font-weight: 400;
@@ -13,6 +13,7 @@ $highlight-color: #934A6E;
 }
 
 /* GENERAL ELEMENT STYLING */
+
 a {
   text-decoration: none;
   color: $primary-text-color;
@@ -132,6 +133,7 @@ header h1 {
 
 .work-screenshot {
   max-width: 461px;
+  /* 461px; */
 }
 
 /* BLOG */
