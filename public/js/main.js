@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  console.log('document ready');
+  console.log('main.js ready');
   scrollToSection();
 });
 
@@ -16,4 +16,6 @@ function scrollToSection() {
     }, 'slow');
   });
 }
+
+// redirect from blog to ../index.html and then scroll to section
 

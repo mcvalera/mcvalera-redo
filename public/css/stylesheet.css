@@ -1,6 +1,6 @@
 /* to be removed later */
 * {
-  /* outline: 1px solid gray;*/
+  /* outline: 1px solid gray; */
   font-family: 'Open Sans', sans-serif;
   color: #194775;
   font-weight: 400;
@@ -102,7 +102,8 @@ header h1 {
   font-weight: 300; }
 
 .work-screenshot {
-  max-width: 461px; }
+  max-width: 461px;
+  /* 461px; */ }
 
 /* BLOG */
 /* FOOTER */
